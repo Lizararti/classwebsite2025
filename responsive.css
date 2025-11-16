@@ -9,6 +9,8 @@
     }
     #categories {
         order: 5;
+        flex-direction: column;
+        min-width: 100%
     }
     .page-header {
         padding-left: 10px;
