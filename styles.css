@@ -153,3 +153,29 @@ body {
     flex-direction: row;
     gap: 1.5em;
 }
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    max-width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    gap: 5px;
+}
+#contact input, #contact textarea {
+    margin-bottom: 1em;
+    padding: 5px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+}
+.buttons > button {
+    min-width: 150px;
+}
+#map {
+    width: 100%;
+    aspect-ratio: 4/3;
+}
