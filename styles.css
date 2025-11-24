@@ -86,6 +86,9 @@ nav a:hover {
 .card-content {
     padding: 1em;
 }
+.card-content p{
+    text-align: justify;
+}
 .card {
     border: 1px solid #CCCCCC;
     border-radius: 8pt;
