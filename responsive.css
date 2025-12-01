@@ -33,14 +33,25 @@
         margin-right: 0.5em;
     }
     .social {
-        order: -1;
+        order: 2;
         justify-content: center;
         min-width: 100%;
     }
     .legal {
+        order: 3;
         justify-content: center;
+        min-width: 100%;
+    }
+    .footer-menu {
+        order: 1;
+        justify-content: center;
+        min-width: 100%;
     }
     .footer {
          min-height: 30vh;
     }
- }
+        .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+ }  

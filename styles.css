@@ -90,7 +90,7 @@ nav a:hover {
     text-align: justify;
 }
 .card {
-    border: 1px solid #CCCCCC;
+    border: 3px solid #CCCCCC;
     border-radius: 8pt;
     overflow: hidden;
     flex: 1;
@@ -100,7 +100,8 @@ nav a:hover {
     min-width: 100%;
     background-color: transparent;
     padding: 0.5em;
-    border: 1px solid #CCCCCC;
+    border: 3px solid #CCCCCC;
+    
 }
 .content {
     margin-top: 3em;
@@ -138,23 +139,24 @@ nav a:hover {
    min-height: 20vh;
    padding: 1em;
 }
-.footer-menu {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-}
 .footer-menu a, .legal a, .social a {
     color: white;
     text-decoration: 100%;
 }
+.footer-menu {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+}
 .legal {
-    min-width: 100%;
     align-self: flex-end;
     display: flex;
     flex-direction: row;
     gap: 1.5em;
 }
 .social {
+    align-self: flex-end;
     display: flex;
     flex-direction: row;
     gap: 1.5em;
@@ -198,4 +200,13 @@ nav a:hover {
 }
 .breadcrumbs .active {
     font-weight: bold;
+}
+
+.card-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-container {
+    margin-bottom: 20px;
 }
